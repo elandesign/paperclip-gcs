@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "paperclip", ">= 4.0"
-  spec.add_runtime_dependency "google-cloud-storage", "~> 1.0"
+  spec.add_runtime_dependency "google-cloud-storage", ">= 1.15.0"
 
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
